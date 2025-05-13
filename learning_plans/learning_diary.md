@@ -55,3 +55,19 @@ Started with clarity. Linux comfort helped. Need to revisit the difference betwe
 ### What I Want to Try
 - Loop through all system users and check disk usage
 - Monitor system health every 5 mins (cron?)
+
+# Week 2
+
+## Interface Info
+
+### ip a
+- Shows: Interfaces, IPs, MACs
+- I noticed: My device uses `enp3s0` instead of `eth0`
+
+### ip r
+- Default route is via 192.168.1.1
+- Shows metric = cost of route
+
+### ss -tuln
+- Port 22 open = SSH
+- Port 631 open = CUPS (printer)
